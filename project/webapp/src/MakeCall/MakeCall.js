@@ -9,7 +9,6 @@ import {
 } from 'office-ui-fabric-react'
 import { Icon } from '@fluentui/react/lib/Icon';
 import CallCard from '../MakeCall/CallCard'
-import CallEndReasonCard from "./CallEndReasonCard";
 import { utils } from '../Utils/Utils';
 
 export default class MakeCall extends React.Component {
@@ -191,10 +190,6 @@ export default class MakeCall extends React.Component {
                                         onShowCameraNotFoundWarning={() => {this.setShowCameraNotFoundWarning}}
                                         onShowSpeakerNotFoundWarning={() => {this.setShowSpeakerNotFoundWarning}}
                                         onShowMicrophoneNotFoundWarning={() => {this.setShowMicrophoneNotFoundWarning}}/>
-                    }
-                    {
-                        this.state.callEndReason && this.state.loggedIn &&
-                        <CallEndReasonCard callEndReason={this.state.callEndReason} />
                     }
                 </div>
             </div>
