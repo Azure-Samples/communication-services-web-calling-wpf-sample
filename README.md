@@ -14,6 +14,9 @@ products:
 
 ACS Calling Sample for WPF.
 
+## Notice
+This is an experimental sample for Azure Communication Services. The capabilities shown are not officially supported by Azure Communication Services. This sample is meant for exploration. Please share our feedback with us if these are capabilities you want to see supported. 
+
 ## Features
 
 This project framework provides the following features:
