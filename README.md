@@ -30,7 +30,7 @@ This project framework provides the following features:
 
 - [npm](https://www.npmjs.com/get-npm)
 - [Node.js](https://nodejs.org/en/download/)
-- [Microsoft Edge (Chromium) Canary Chanel](https://www.microsoftedgeinsider.com/en-us/download)
+- Microsoft Edge (Chromium)
 - [Visual Studio 2017 or later](https://visualstudio.microsoft.com/)
 - [VS workload required: Microsoft.VisualStudio.Workload.ManagedDesktop](https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-enterprise?view=vs-2019&preserve-view=true#net-desktop-development)
 - .NET Framework. It can be installed from Visual Studio Installer.
@@ -45,7 +45,7 @@ This project framework provides the following features:
 7. In the ```/project``` directory from the cloned reposity, open WpfApp.sln in Visual Studio
 8. From Visual Studio solution explorer, right click on the project solution (WpfApp.sln) and click on "Manage Nuget packages..."
 ![Manage Nuget packages](./images/ManageNuget.png)
-9. From NuGet dialog, browse for Microsoft.Web.WebView2 (Make sure to check the "Include prerelease" box) and install version 0.9.579-prerelease
+9. From NuGet dialog, browse for Microsoft.Web.WebView2 (Make sure to check the "Include prerelease" box) and install version 1.0.864.35
 ![Nuget Dialog](./images/NugetDialog.png)
 10. Build and run the WPF app from Visual Studio and the WPF app should come up. This WPF app has two web views. In each web view you should see an ACS Calling web application
 ![Wpf App](./images/WpfApp.png)
